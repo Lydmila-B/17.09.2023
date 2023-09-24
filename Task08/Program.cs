@@ -5,10 +5,12 @@
 
 Console.WriteLine("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
+int count = 2;
 
-while(count <= n)
+while (N >= count)
 {
-    Console.Write($"{count++} ");
-    // count = count + 1; count++
+    
+    Console.Write($"{count} ");
+    count = count + 2;
 
 }
